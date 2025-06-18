@@ -1,0 +1,7 @@
+num = int(input())
+ans_1 = int(num/10)
+ans_2 = int((num - ans_1*10)/5)
+ans_3 = int(num - ans_1*10 - ans_2*5)
+print(f"NT10={ans_1}")
+print(f"NT5={ans_2}")
+print(f"NT1={ans_3}")
