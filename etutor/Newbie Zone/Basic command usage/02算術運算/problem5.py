@@ -1,0 +1,10 @@
+# //商(整除)
+a, b = input().split()
+num_1, num_2 = int(a), int(b)
+# 處理除法
+remain = num_1 % abs(num_2)
+quo = int((num_1 - remain) / num_2)
+print(a + "+" + b + "=" + str(num_1+num_2))
+print(a + "*" + b + "=" + str(num_1*num_2))
+print(a + "-" + b + "=" + str(num_1-num_2))
+print(a + "/" + b + "=" + str(quo) + "..." + str(remain))
